@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #FFFF;
+    text-decoration:2px solid red;
+}
+
+body{
+    background: linear-gradient(
+        150deg,
+        #036e3e,
+        #06f1a3
+    );
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    padding: 75px 0;
+}
+
+.card{
+    display: inline-block;
+    width: 354px;
+    height: 508px;
+    cursor: pointer;
+
+    background-image: url(assets/explorer.svg);
+}
+
+.card > img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #F7DD43;
+    margin-top: 103px;
+    margin-bottom: 110px;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.info{
+    text-align: left;
+    margin-left: 80px;
+}
+
