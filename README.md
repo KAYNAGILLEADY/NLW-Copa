@@ -1,2 +1,2 @@
-# frontend-mentor
- projetos do front end mentor
+# Evento NLW-COPA
+
